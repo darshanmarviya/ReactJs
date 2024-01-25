@@ -25,3 +25,4 @@ function Idcard(props)
     );
 }
 export default Idcard;
+

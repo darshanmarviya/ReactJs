@@ -2,21 +2,23 @@ import logo from './logo.svg';
 import './App.css';
 import Idcard from './idcard';
 import Idcard2 from './idcard2';
+//import background from './images/backgaround.jpg';
 
 function App() {
+
   return (
     <div className="App" style={{display:"flex"}}>
 
       <Idcard collname="Faculty of Science "
-        name="Darshan Maraviya"
-        rollno="33"
+        name="Jonny Baba"
+        rollno="07"
         Department="M.C.A"
         Enrollmentnumber="230651421"/>
 
-      <Idcard2 address = "Nana Mava Main Road, Near Kalavad Road, Rajkot-360005"
+      <Idcard2 address = "Kalivalli shop - 4&5, Near Mehtasab Complex, Hirachacha Main Road, Ferani-650152"
               mobileno = "95756 36654"
-              email="atmiya.darsh.15618223062@gmail.com"
-              registration="15618223062"
+              email="jonnybaba1212@gmail.com"
+              registration="89541536259"
               bgroup="A+"/>
     
     </div>
